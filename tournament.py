@@ -14,4 +14,4 @@ c = conn.cursor()
 
 def deletePlayers():
   c.execute("DELETE * FROM tournament")
-
+  c.execute("DELETE * FROM matches")
