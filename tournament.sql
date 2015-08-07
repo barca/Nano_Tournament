@@ -11,6 +11,5 @@ CREATE TABLE matches (
 	ID 			int PRIMARY KEY 	NOT NULL,
 	name			text
 	wins			int
-	player_history		int[]
 );
 
